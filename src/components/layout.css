@@ -83,10 +83,17 @@ main {
   margin-bottom: 0px;
 }
 
+.flexed-skills {
+  margin: 0.25rem 0;
+}
+
 .skills .badge {
   margin: 0 0.15rem;
+  font-weight: 500;
 }
 
 .skills .badge.badge-warning {
-  color: #444;
+  color: #fefefe;
+  font-weight: bold;
+  background-color: #f39c12;
 }
