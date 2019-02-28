@@ -97,3 +97,16 @@ main {
   font-weight: bold;
   background-color: #f39c12;
 }
+
+.company {
+  display: flex;
+  align-items: center;
+}
+.company strong {
+  padding: 0 1rem;
+  font-size: x-large;
+  align-self: baseline;
+}
+.company small {
+  align-self: baseline;
+}
