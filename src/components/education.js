@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 
 const Education = () => {
-  return (  );
+  return null
 }
- 
-export default Education;
+
+export default Education

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 
 const Awards = () => {
-  return (  );
+  return null
 }
- 
-export default Awards;
+
+export default Awards

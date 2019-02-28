@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 
 const Github = () => {
-  return (  );
+  return null
 }
- 
-export default Github;
+
+export default Github
