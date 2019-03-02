@@ -12,8 +12,8 @@ const Work = () => {
         <h2>Work</h2>
       </div>
       <div className="col-sm-7">
-        <GreenRiver />
         <Usc />
+        <GreenRiver />
         <Rackspace />
         <Tetco />
         {/* <Kci /> */}

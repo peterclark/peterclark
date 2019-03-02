@@ -14,7 +14,16 @@ const Contact = () => {
           </article>
           <article className="col-sm-6 col-md-4">
             <h5>Phone</h5>
-            (210) 863-8260
+            <a href="tel:1-210-863-8260" title="call me">
+              (210) 863-8260
+            </a>
+            <a
+              href="sms:1-210-863-8260"
+              title="send a text message"
+              style={{ "padding-left": "0.5rem" }}
+            >
+              <i className="fa fa-comment-o" />
+            </a>
           </article>
           <article className="col-sm-6 col-md-4">
             <h5>Website</h5>
