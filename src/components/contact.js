@@ -8,11 +8,11 @@ const Contact = () => {
       </div>
       <div className="col-sm-7">
         <div className="row">
-          <article className="col-sm-6 col-md-4">
+          <article className="col-md-6 col-lg-4 mt-2">
             <h5>Email</h5>
             peter@5clarks.net
           </article>
-          <article className="col-sm-6 col-md-4">
+          <article className="col-md-6 col-lg-4 mt-2">
             <h5>Phone</h5>
             <a href="tel:1-210-863-8260" title="call me">
               (210) 863-8260
@@ -25,7 +25,7 @@ const Contact = () => {
               <i className="fa fa-comment-o" />
             </a>
           </article>
-          <article className="col-sm-6 col-md-4">
+          <article className="col-md-6 col-lg-4 mt-2">
             <h5>Website</h5>
             <a href="http://peterclark.us">www.peterclark.us</a>
           </article>

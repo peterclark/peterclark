@@ -71,7 +71,7 @@ main {
   margin-bottom: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   #resume section h2 {
     text-align: left;
     border-bottom: 1px solid #ccc;
@@ -84,7 +84,8 @@ main {
 }
 
 .flexed-skills {
-  margin: 0.25rem 0;
+  display: flex;
+  margin: 0.5rem 0;
 }
 
 .skills .badge {
