@@ -3,10 +3,10 @@ import React from "react"
 const Awards = () => {
   return (
     <section class="row">
-      <div class="col-sm-3 col-sm-offset-1">
+      <div class="col-md-3 col-md-offset-1">
         <h2>Awards & Certifications</h2>
       </div>
-      <div class="col-sm-7">
+      <div class="col-md-7">
         <div class="row">
           <article class="col-sm-12">
             <ul class="fa-ul">

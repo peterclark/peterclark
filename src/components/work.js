@@ -8,10 +8,10 @@ import Kci from "./kci"
 const Work = () => {
   return (
     <section className="row">
-      <div className="col-sm-3 col-sm-offset-1">
+      <div className="col-md-3 col-md-offset-1">
         <h2>Work</h2>
       </div>
-      <div className="col-sm-7">
+      <div className="col-md-7">
         <Usc />
         <GreenRiver />
         <Rackspace />

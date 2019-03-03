@@ -71,10 +71,11 @@ main {
   margin-bottom: 5px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   #resume section h2 {
     text-align: left;
     border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
   }
 }
 

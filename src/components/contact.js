@@ -3,10 +3,10 @@ import React from "react"
 const Contact = () => {
   return (
     <section className="row">
-      <div className="col-sm-3 col-sm-offset-1">
+      <div className="col-md-3 col-md-offset-1">
         <h2>Contact</h2>
       </div>
-      <div className="col-sm-7">
+      <div className="col-md-7">
         <div className="row">
           <article className="col-md-6 col-lg-4 mt-2">
             <h5>Email</h5>

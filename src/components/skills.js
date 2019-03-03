@@ -3,10 +3,10 @@ import React from "react"
 const Skills = () => {
   return (
     <section className="row skills">
-      <div className="col-sm-3 col-sm-offset-1">
+      <div className="col-md-3 col-md-offset-1">
         <h2>Skills</h2>
       </div>
-      <div className="col-sm-7">
+      <div className="col-md-7">
         <div className="row">
           <article className="col-sm-12">
             <h4>
