@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="row">
           <article className="col-md-6 col-lg-4 mt-2">
             <h5>Email</h5>
-            peter@5clarks.net
+            <a href="mailto:peter@5clarks.net">peter@5clarks.net</a>
           </article>
           <article className="col-md-6 col-lg-4 mt-2">
             <h5>Phone</h5>
