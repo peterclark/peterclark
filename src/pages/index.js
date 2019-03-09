@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Contact from "../components/contact"
-import Skill from "../components/skills"
+import Skills from "../components/skills"
 import Work from "../components/work"
 import Github from "../components/github"
 import Education from "../components/education"
@@ -26,7 +26,7 @@ const IndexPage = () => (
     <div className="container">
       <div id="resume">
         <Contact />
-        <Skill />
+        <Skills />
         <Work />
         <Github />
         <Education />

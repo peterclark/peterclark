@@ -1,82 +1,65 @@
-import React from "react"
+import React, { Component } from "react"
+import Skill from "./skill"
 
-const Skills = () => {
-  const languages = ["Ruby", "Javascript", "Java", "SQL"]
-  const databases = ["Databases", "Postgres", "MongoDB", "Mysql", "Firebase"]
-
-  return (
-    <section className="row skills">
-      <div className="col-md-3 col-md-offset-1">
-        <h2>Skills</h2>
-      </div>
-      <div className="col-md-7">
-        <div className="row">
-          <article className="col-sm-12">
-            <h4>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">Languages</div>
-                {languages.map(language => (
-                  <div className="badge badge-info">{language}</div>
-                ))}
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">Databases</div>
-                {databases.map(database => (
-                  <div className="badge badge-info">{database}</div>
-                ))}
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">Web Frameworks</div>
-                <div className="badge badge-info">Ruby on Rails</div>
-                <div className="badge badge-info">React</div>
-                <div className="badge badge-info">Vue</div>
-                <div className="badge badge-info">Express</div>
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">UI Frameworks</div>
-                <div className="badge badge-info">Bootstrap</div>
-                <div className="badge badge-info">Foundation</div>
-                <div className="badge badge-info">Semantic UI</div>
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">APIs</div>
-                <div className="badge badge-info">Facebook</div>
-                <div className="badge badge-info">Twitter</div>
-                <div className="badge badge-info">Twilio</div>
-                <div className="badge badge-info">Salesforce</div>
-                <div className="badge badge-info">Oracle</div>
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">Web</div>
-                <div className="badge badge-info">HTML5</div>
-                <div className="badge badge-info">CSS</div>
-                <div className="badge badge-info">jQuery</div>
-                <div className="badge badge-info">Node</div>
-                <div className="badge badge-info">Yarn</div>
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">Agile Tools</div>
-                <div className="badge badge-info">JIRA</div>
-                <div className="badge badge-info">Pivotal Tracker</div>
-                <div className="badge badge-info">Version One</div>
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">Version Control</div>
-                <div className="badge badge-info">Git</div>
-                <div className="badge badge-info">Github</div>
-                <div className="badge badge-info">Bitbucket</div>
-              </div>
-              <div className="flexed-skills d-inline d-sm-flex">
-                <div className="badge badge-warning">Testing</div>
-                <div className="badge badge-info">Rspec</div>
-                <div className="badge badge-info">Minitest</div>
-              </div>
-            </h4>
-          </article>
+class Skills extends Component {
+  render() {
+    const skills = [
+      {
+        label: "Languages",
+        items: ["Ruby", "Javascript", "Java", "SQL"],
+      },
+      {
+        label: "Databases",
+        items: ["Postgres", "MongoDB", "Mysql", "Firebase"],
+      },
+      {
+        label: "Web Frameworks",
+        items: ["Ruby on Rails", "React", "Vue", "Express"],
+      },
+      {
+        label: "UI Frameworks",
+        items: ["Bootstrap", "Foundation", "Semantic UI"],
+      },
+      {
+        label: "APIs",
+        items: ["Facebook", "Twitter", "Twilio", "Salesforce", "Oracle"],
+      },
+      {
+        label: "Web",
+        items: ["HTML5", "CSS", "jQuery", "Node", "Yarn"],
+      },
+      {
+        label: "Agile Tools",
+        items: ["JIRA", "Pivotal Tracker", "Version One"],
+      },
+      {
+        label: "Version Control",
+        items: ["Git", "Github", "Bitbucket"],
+      },
+      {
+        label: "Testing",
+        items: ["Rspec", "Minitest"],
+      },
+    ]
+    return (
+      <section className="row skills">
+        <div className="col-md-3 col-md-offset-1">
+          <h2>Skills</h2>
         </div>
-      </div>
-    </section>
-  )
+        <div className="col-md-7">
+          <div className="row">
+            <article className="col-sm-12">
+              <h4>
+                {skills.map(skill => (
+                  <Skill skill={skill} />
+                ))}
+              </h4>
+            </article>
+          </div>
+        </div>
+      </section>
+    )
+  }
 }
 
 export default Skills
