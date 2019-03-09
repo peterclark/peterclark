@@ -17,6 +17,7 @@ const Awards = () => {
                 <a
                   href="https://university.mongodb.com/certification/display_certificate?csrfmiddlewaretoken=XBcmluW9926kRCmX607vVZRTJuXFH4DzAfG7IZ1DLcpjUFoWYliszhuacxuQ6odu&license1=166&license2=666&license3=436"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   166-666-436
                 </a>

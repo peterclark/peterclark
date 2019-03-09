@@ -1,6 +1,9 @@
 import React from "react"
 
 const Skills = () => {
+  const languages = ["Ruby", "Javascript", "Java", "SQL"]
+  const databases = ["Databases", "Postgres", "MongoDB", "Mysql", "Firebase"]
+
   return (
     <section className="row skills">
       <div className="col-md-3 col-md-offset-1">
@@ -12,17 +15,15 @@ const Skills = () => {
             <h4>
               <div className="flexed-skills d-inline d-sm-flex">
                 <div className="badge badge-warning">Languages</div>
-                <div className="badge badge-info">Ruby</div>
-                <div className="badge badge-info">Javascript</div>
-                <div className="badge badge-info">Java</div>
-                <div className="badge badge-info">SQL</div>
+                {languages.map(language => (
+                  <div className="badge badge-info">{language}</div>
+                ))}
               </div>
               <div className="flexed-skills d-inline d-sm-flex">
                 <div className="badge badge-warning">Databases</div>
-                <div className="badge badge-info">Postgres</div>
-                <div className="badge badge-info">MongoDB</div>
-                <div className="badge badge-info">Mysql</div>
-                <div className="badge badge-info">Firebase</div>
+                {databases.map(database => (
+                  <div className="badge badge-info">{database}</div>
+                ))}
               </div>
               <div className="flexed-skills d-inline d-sm-flex">
                 <div className="badge badge-warning">Web Frameworks</div>

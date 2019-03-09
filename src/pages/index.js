@@ -5,11 +5,11 @@ import SEO from "../components/seo"
 import Contact from "../components/contact"
 import Skill from "../components/skills"
 import Work from "../components/work"
-import "bootstrap/dist/css/bootstrap.css"
-import "font-awesome/css/font-awesome.css"
 import Github from "../components/github"
 import Education from "../components/education"
 import Awards from "../components/awards"
+import "bootstrap/dist/css/bootstrap.css"
+import "font-awesome/css/font-awesome.css"
 
 const IndexPage = () => (
   <Layout>

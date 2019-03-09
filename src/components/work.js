@@ -3,7 +3,7 @@ import GreenRiver from "./greenRiver"
 import Rackspace from "./rackspace"
 import Usc from "./usc"
 import Tetco from "./tetco"
-import Kci from "./kci"
+// import Kci from "./kci"
 
 const Work = () => {
   return (
@@ -16,7 +16,6 @@ const Work = () => {
         <GreenRiver />
         <Rackspace />
         <Tetco />
-        {/* <Kci /> */}
       </div>
     </section>
   )
