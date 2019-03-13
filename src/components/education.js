@@ -13,7 +13,13 @@ const Education = () => {
               <li>
                 <i class="fa fa-li fa-university" />
                 <strong>
-                  <a href="http://www.tlu.edu">Texas Lutheran University</a>
+                  <a
+                    href="http://www.tlu.edu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Texas Lutheran University
+                  </a>
                 </strong>
               </li>
               <li>Physics</li>
@@ -27,7 +33,11 @@ const Education = () => {
               <li>
                 <i class="fa fa-li fa-university" />
                 <strong>
-                  <a href="http://www.utsa.edu">
+                  <a
+                    href="http://www.utsa.edu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     University of Texas at San Antonio
                   </a>
                 </strong>
