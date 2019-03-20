@@ -5,11 +5,11 @@ const Kci = () => {
   return (
     <div className="row">
       <article className="col-sm-12">
-        <p className="company">
+        <div className="company">
           <KciImage />
           <strong>Kinetic Concepts Inc</strong>
           <small>1997 - 1999</small>
-        </p>
+        </div>
         <p>
           <strong>Software Developer</strong>
         </p>

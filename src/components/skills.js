@@ -50,8 +50,8 @@ class Skills extends Component {
           <div className="row">
             <article className="col-sm-12">
               <h4>
-                {skills.map(skill => (
-                  <Skill skill={skill} />
+                {skills.map((skill, index) => (
+                  <Skill skill={skill} key={index} />
                 ))}
               </h4>
             </article>

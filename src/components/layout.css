@@ -103,6 +103,7 @@ main {
 .company {
   display: flex;
   align-items: center;
+  margin-bottom: 0.75em;
 }
 .company strong {
   padding: 0 1rem;

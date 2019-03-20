@@ -5,11 +5,11 @@ const Rackspace = () => {
   return (
     <div className="row">
       <article className="col-sm-12">
-        <p className="company">
+        <div className="company">
           <RackspaceImage />
           <strong>Rackspace</strong>
           <small>2012 - 2017</small>
-        </p>
+        </div>
         <p>
           <strong>Software Developer</strong>
         </p>

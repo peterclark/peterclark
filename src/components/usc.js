@@ -5,11 +5,11 @@ const Usc = () => {
   return (
     <div className="row">
       <article className="col-sm-12">
-        <p className="company">
+        <div className="company">
           <UscImage />
           <strong>USC</strong>
           <small>2016 - present</small>
-        </p>
+        </div>
         <p>
           <strong>Software Developer</strong>
         </p>

@@ -2,16 +2,16 @@ import React from "react"
 
 const Education = () => {
   return (
-    <section class="row">
-      <div class="col-md-3 col-md-offset-1">
+    <section className="row">
+      <div className="col-md-3 col-md-offset-1">
         <h2>Education</h2>
       </div>
-      <div class="col-md-7">
-        <div class="row">
-          <article class="col-sm-12">
-            <ul class="fa-ul">
+      <div className="col-md-7">
+        <div className="row">
+          <article className="col-sm-12">
+            <ul className="fa-ul">
               <li>
-                <i class="fa fa-li fa-university" />
+                <i className="fa fa-li fa-university" />
                 <strong>
                   <a
                     href="http://www.tlu.edu"
@@ -24,14 +24,14 @@ const Education = () => {
               </li>
               <li>Physics</li>
               <li>
-                <div class="badge badge-secondary">3.8 GPA</div>
+                <div className="badge badge-secondary">3.8 GPA</div>
                 &nbsp;
-                <div class="badge badge-info">Magna Cum Laude</div>
+                <div className="badge badge-info">Magna Cum Laude</div>
               </li>
             </ul>
-            <ul class="fa-ul">
+            <ul className="fa-ul">
               <li>
-                <i class="fa fa-li fa-university" />
+                <i className="fa fa-li fa-university" />
                 <strong>
                   <a
                     href="http://www.utsa.edu"
@@ -44,7 +44,7 @@ const Education = () => {
               </li>
               <li>Electrical Engineering Courses</li>
               <li>
-                <div class="badge badge-secondary">3.4 GPA</div>
+                <div className="badge badge-secondary">3.4 GPA</div>
               </li>
             </ul>
           </article>

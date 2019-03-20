@@ -20,7 +20,7 @@ const Contact = () => {
             <a
               href="sms:1-210-863-8260"
               title="send a text message"
-              style={{ "padding-left": "0.5rem" }}
+              style={{ paddingLeft: "0.5rem" }}
             >
               <i className="fa fa-comment-o" />
             </a>

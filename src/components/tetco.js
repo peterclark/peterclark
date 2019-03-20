@@ -5,11 +5,11 @@ const Tetco = () => {
   return (
     <div className="row">
       <article className="col-sm-12">
-        <p className="company">
+        <div className="company">
           <TetcoImage />
           <strong>Tetco</strong>
           <small>1999 - 2012</small>
-        </p>
+        </div>
         <p>
           <strong>IT Director / Software Developer</strong>
         </p>

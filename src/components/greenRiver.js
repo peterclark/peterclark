@@ -5,11 +5,11 @@ const GreenRiver = () => {
   return (
     <div className="row">
       <article className="col-sm-12">
-        <p className="company">
+        <div className="company">
           <GreenRiverImage />
           <strong>Green River</strong>
           <small>2017 - 2019</small>
-        </p>
+        </div>
         <p>
           <strong>Software Developer</strong>
         </p>

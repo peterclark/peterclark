@@ -6,8 +6,10 @@ class Skill extends Component {
     return (
       <div className="flexed-skills d-inline d-sm-flex">
         <div className="badge badge-warning">{skill.label}</div>
-        {skill.items.map(item => (
-          <div className="badge badge-info">{item}</div>
+        {skill.items.map((item, index) => (
+          <div className="badge badge-info" key={index}>
+            {item}
+          </div>
         ))}
       </div>
     )
