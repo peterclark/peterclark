@@ -11,7 +11,7 @@ const GreenRiver = () => {
           <small>2017 - 2019</small>
         </div>
         <p>
-          <strong>Software Developer</strong>
+          <strong>Lead Software Developer</strong>
         </p>
         <p>
           Rails developer for a variety of clients that include Starbucks, The

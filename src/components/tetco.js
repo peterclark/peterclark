@@ -11,7 +11,7 @@ const Tetco = () => {
           <small>1999 - 2012</small>
         </div>
         <p>
-          <strong>IT Director / Software Developer</strong>
+          <strong>IT Director / Senior Software Developer</strong>
         </p>
         <p>
           Designed key software applications used by customers and corporate

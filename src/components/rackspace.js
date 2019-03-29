@@ -11,7 +11,7 @@ const Rackspace = () => {
           <small>2012 - 2017</small>
         </div>
         <p>
-          <strong>Software Developer</strong>
+          <strong>Senior Software Developer</strong>
         </p>
         <p>
           Part of an agile team designing Rackspace's internal sales quoting

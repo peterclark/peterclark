@@ -11,7 +11,7 @@ const Usc = () => {
           <small>2016 - present</small>
         </div>
         <p>
-          <strong>Software Developer</strong>
+          <strong>Lead Software Developer</strong>
         </p>
         <p>
           Lead developer for the University of Southern California (USC)
