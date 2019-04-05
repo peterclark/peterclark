@@ -14,14 +14,19 @@ const Usc = () => {
           <strong>Lead Software Developer</strong>
         </p>
         <p>
-          Lead developer for the University of Southern California (USC)
-          Clinical Trials website redesign using Ruby / Rails / Postgres / ZURB
-          Foundation. Building the workflow enabling researchers to create
-          landing pages for their clinical trials with the intent to increase
-          volunteer recruitment. Key accomplishments include integration of the
-          Facebook/Instagram Ad API, Twilio API, address geocoding, language
-          translation and elastisearch. Software development workflow using Git,
-          Rspec, Github, Heroku and CodeClimate.
+          Lead developer for the University of Southern California{" "}
+          <strong>
+            <a href="https://clinicaltrials.keckmedicine.org/" target="_blank">
+              Clinical Trials website
+            </a>
+          </strong>{" "}
+          redesign using Ruby / Rails / Postgres / ZURB Foundation. Building the
+          workflow enabling researchers to create landing pages for their
+          clinical trials with the intent to increase volunteer recruitment. Key
+          accomplishments include integration of the Facebook/Instagram Ad API,
+          Twilio API, address geocoding, language translation and elastisearch.
+          Software development workflow using Git, Rspec, Github, Heroku and
+          CodeClimate.
         </p>
       </article>
     </div>
