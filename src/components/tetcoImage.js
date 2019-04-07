@@ -8,7 +8,7 @@ const TetcoImage = () => (
       query {
         placeholderImage: file(relativePath: { eq: "tetco-logo.png" }) {
           childImageSharp {
-            fixed(width: 24) {
+            fixed(width: 25) {
               ...GatsbyImageSharpFixed
             }
           }
