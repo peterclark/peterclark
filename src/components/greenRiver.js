@@ -14,19 +14,43 @@ const GreenRiver = () => {
           <strong>Lead Software Developer</strong>
         </p>
         <p>
-          Rails developer for a variety of clients that include Starbucks, The
-          City of Boston,{" "}
+          Rails developer for a variety of clients that include{" "}
+          <strong>
+            <a
+              href="https://www.greenriver.com/portfolio/starbucks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Starbucks
+            </a>
+          </strong>
+          ,{" "}
+          <strong>
+            <a
+              href="https://www.greenriver.com/portfolio/the-city-of-boston"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The City of Boston
+            </a>
+          </strong>
+          , <strong />
           <strong>
             <a
               href="https://asset-data.inrev.org/users/auth/inrev"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Inrev
             </a>
           </strong>
           , a European association for real estate investors, and{" "}
           <strong>
-            <a href="https://phr.storymd.com" target="_blank">
+            <a
+              href="https://phr.storymd.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               StoryMD
             </a>
           </strong>

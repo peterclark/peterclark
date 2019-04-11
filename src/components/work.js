@@ -3,7 +3,8 @@ import GreenRiver from "./greenRiver"
 import Rackspace from "./rackspace"
 import Usc from "./usc"
 import Tetco from "./tetco"
-// import Kci from "./kci"
+import Usaa from "./usaa"
+import Kci from "./kci"
 
 const Work = () => {
   return (
@@ -12,10 +13,12 @@ const Work = () => {
         <h2>Work</h2>
       </div>
       <div className="col-md-7">
+        {/* <Usaa /> */}
         <Usc />
         <GreenRiver />
         <Rackspace />
         <Tetco />
+        <Kci />
       </div>
     </section>
   )
