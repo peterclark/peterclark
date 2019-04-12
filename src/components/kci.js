@@ -7,7 +7,7 @@ const Kci = () => {
       <article className="col-sm-12">
         <div className="company">
           <KciImage />
-          <strong>Kinetic Concepts Inc</strong>
+          <strong>Kinetic Concepts</strong>
           <small>1997 - 1999</small>
         </div>
         <p>
