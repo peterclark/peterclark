@@ -113,3 +113,42 @@ main {
 .company small {
   align-self: baseline;
 }
+.logo-spacing {
+  margin: 0 0.5em;
+}
+.company img {
+  border-radius: 50%;
+  padding: 1px;
+  border: 1px solid white;
+}
+.company div.boston {
+  position: relative;
+  left: -18px;
+}
+.company div.rackspace {
+  position: relative;
+  left: -36px;
+}
+.company div.inrev {
+  position: relative;
+  left: -54px;
+}
+.company div.storymd {
+  position: relative;
+  left: -72px;
+}
+.company div.usc {
+  position: relative;
+  left: -90px;
+}
+.company div.starbucks {
+  position: relative;
+  left: -108px;
+}
+.company div.greenriver {
+  position: relative;
+  left: -126px;
+}
+.company .boston img {
+  background-color: #444;
+}

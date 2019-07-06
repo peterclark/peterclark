@@ -1,10 +1,8 @@
 import React from "react"
-import GreenRiver from "./greenRiver"
+import Sophos from "./sophos"
+import Consultant from "./consultant"
 import Rackspace from "./rackspace"
-import Usc from "./usc"
 import Tetco from "./tetco"
-import Usaa from "./usaa"
-import Kci from "./kci"
 
 const Work = () => {
   return (
@@ -13,12 +11,10 @@ const Work = () => {
         <h2>Work</h2>
       </div>
       <div className="col-md-7">
-        {/* <Usaa /> */}
-        <Usc />
-        <GreenRiver />
+        <Sophos />
+        <Consultant />
         <Rackspace />
         <Tetco />
-        <Kci />
       </div>
     </section>
   )

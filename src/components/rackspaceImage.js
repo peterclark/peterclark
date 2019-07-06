@@ -8,7 +8,7 @@ const RackspaceImage = () => (
       query {
         placeholderImage: file(relativePath: { eq: "rackspace-logo.png" }) {
           childImageSharp {
-            fixed(width: 25) {
+            fixed(width: 30) {
               ...GatsbyImageSharpFixed
             }
           }
