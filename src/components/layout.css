@@ -104,6 +104,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 0.75em;
+  flex-wrap: wrap;
 }
 .company strong {
   padding: 0 1rem;
@@ -151,4 +152,7 @@ main {
 }
 .company .boston img {
   background-color: #444;
+}
+a.logo {
+  height: 30px;
 }

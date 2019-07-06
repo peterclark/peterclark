@@ -14,30 +14,96 @@ const Consultant = () => {
       <article className="col-sm-12">
         <div className="company">
           <div className="mr-1">
-            <UsaaImage />
+            <a
+              href="https://www.usaa.com"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="USAA"
+            >
+              <UsaaImage />
+            </a>
           </div>
           <div className="mx-1 boston">
-            <BostonImage />
+            <a
+              href="https://www.boston.gov"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="City of Boston"
+            >
+              <BostonImage />
+            </a>
           </div>
           <div className="mx-1 rackspace">
-            <RackspaceImage />
+            <a
+              href="https://www.rackspace.com"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="Rackspace"
+            >
+              <RackspaceImage />
+            </a>
           </div>
           <div className="mx-1 inrev">
-            <InrevImage />
+            <a
+              href="https://www.inrev.org"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="INREV"
+            >
+              <InrevImage />
+            </a>
           </div>
           <div className="mx-1 storymd">
-            <StoryMdImage />
+            <a
+              href="https://phr.storymd.com"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="StoryMD"
+            >
+              <StoryMdImage />
+            </a>
           </div>
           <div className="mx-1 usc">
-            <UscImage />
+            <a
+              href="https://www.usc.edu"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="University of Southern California"
+            >
+              <UscImage />
+            </a>
           </div>
           <div className="mx-1 starbucks">
-            <StarbucksImage />
+            <a
+              href="https://www.starbucks.com"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="Starbucks"
+            >
+              <StarbucksImage />
+            </a>
           </div>
           <div className="mx-1 greenriver">
-            <GreenRiverImage />
+            <a
+              href="https://www.greenriver.com"
+              target="_blank"
+              className="logo"
+              rel="noopener noreferrer"
+              data-tip="Green River"
+            >
+              <GreenRiverImage />
+            </a>
           </div>
-          <strong style={{ marginLeft: "-126px" }}>Freelance</strong>
+          <strong className="d-block" style={{ marginLeft: "-126px" }}>
+            Freelance
+          </strong>
           <small>2016 - 2019</small>
         </div>
         <p>

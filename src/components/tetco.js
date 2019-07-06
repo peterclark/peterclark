@@ -6,7 +6,15 @@ const Tetco = () => {
     <div className="row">
       <article className="col-sm-12">
         <div className="company">
-          <TetcoImage />
+          <a
+            href="https://www.tetco.com"
+            target="_blank"
+            className="logo"
+            rel="noopener noreferrer"
+            data-tip="Tetco Inc."
+          >
+            <TetcoImage />
+          </a>
           <strong>Tetco</strong>
           <small>1999 - 2012</small>
         </div>

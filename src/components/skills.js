@@ -26,7 +26,7 @@ class Skills extends Component {
       },
       {
         label: "Web",
-        items: ["HTML5", "CSS", "jQuery", "Node", "Yarn"],
+        items: ["HTML5", "ES6", "CSS", "jQuery", "Node", "Yarn"],
       },
       {
         label: "Agile Tools",
@@ -38,7 +38,7 @@ class Skills extends Component {
       },
       {
         label: "Testing",
-        items: ["Rspec", "Minitest"],
+        items: ["Rspec", "Minitest", "Cypress"],
       },
     ]
     return (

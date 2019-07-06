@@ -6,7 +6,15 @@ const Rackspace = () => {
     <div className="row">
       <article className="col-sm-12">
         <div className="company">
-          <RackspaceImage />
+          <a
+            href="https://www.rackspace.com"
+            target="_blank"
+            className="logo"
+            rel="noopener noreferrer"
+            data-tip="Rackspace"
+          >
+            <RackspaceImage />
+          </a>
           <strong>Rackspace</strong>
           <small>2012 - 2017</small>
         </div>

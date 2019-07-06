@@ -8,6 +8,7 @@ import Work from "../components/work"
 import Github from "../components/github"
 import Education from "../components/education"
 import Awards from "../components/awards"
+import ReactTooltip from "react-tooltip"
 import "bootstrap/dist/css/bootstrap.css"
 import "font-awesome/css/font-awesome.css"
 
@@ -32,6 +33,7 @@ const IndexPage = () => (
         <Education />
         <Awards />
       </div>
+      <ReactTooltip />
     </div>
   </Layout>
 )

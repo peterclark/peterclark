@@ -6,7 +6,15 @@ const Sophos = () => {
     <div className="row">
       <article className="col-sm-12">
         <div className="company">
-          <SophosImage />
+          <a
+            href="https://sophos.com"
+            target="_blank"
+            className="logo"
+            rel="noopener noreferrer"
+            data-tip="Sophos"
+          >
+            <SophosImage />
+          </a>
           <strong>Sophos</strong>
           <small>2019 - present</small>
         </div>
