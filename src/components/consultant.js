@@ -101,7 +101,13 @@ const Consultant = () => {
               <GreenRiverImage />
             </a>
           </div>
-          <strong className="d-block" style={{ marginLeft: "-126px" }}>
+          <strong
+            className="d-none d-sm-inline"
+            style={{ marginLeft: "-126px" }}
+          >
+            Freelance
+          </strong>
+          <strong className="d-sm-none" style={{ padding: "0 1rem 0 0" }}>
             Freelance
           </strong>
           <small>2016 - 2019</small>
