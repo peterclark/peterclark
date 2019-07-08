@@ -10,7 +10,7 @@ const Kci = () => {
           <strong>Kinetic Concepts</strong>
           <small>1997 - 1999</small>
         </div>
-        <p>
+        <p className="position">
           <strong>Software Developer</strong>
         </p>
         <p>

@@ -18,7 +18,7 @@ const Rackspace = () => {
           <strong>Rackspace</strong>
           <small>2012 - 2017</small>
         </div>
-        <p>
+        <p className="position">
           <strong>Senior Software Developer</strong>
         </p>
         <p>

@@ -10,7 +10,7 @@ import { StoryMdImage } from "./storymdImage"
 
 const Consultant = () => {
   return (
-    <div className="row">
+    <div className="row mt-2">
       <article className="col-sm-12">
         <div className="company">
           <div className="mr-1">
@@ -112,7 +112,7 @@ const Consultant = () => {
           </strong>
           <small>2016 - 2019</small>
         </div>
-        <p>
+        <p className="position">
           <strong>Software Consultant</strong>
         </p>
         <p>

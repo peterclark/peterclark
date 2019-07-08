@@ -10,7 +10,7 @@ const GreenRiver = () => {
           <strong>Green River</strong>
           <small>2017 - 2019</small>
         </div>
-        <p>
+        <p className="position">
           <strong>Lead Software Developer</strong>
         </p>
         <p>

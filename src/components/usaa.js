@@ -10,7 +10,7 @@ const Usaa = () => {
           <strong>USAA</strong>
           <small>2019 - present</small>
         </div>
-        <p>
+        <p className="position">
           <strong>Contract Software Developer</strong>
         </p>
         <p>

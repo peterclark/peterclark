@@ -18,7 +18,7 @@ const Tetco = () => {
           <strong>Tetco</strong>
           <small>1999 - 2012</small>
         </div>
-        <p>
+        <p className="position">
           <strong>IT Director / Senior Software Developer</strong>
         </p>
         <p>

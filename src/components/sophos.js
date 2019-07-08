@@ -18,7 +18,7 @@ const Sophos = () => {
           <strong>Sophos</strong>
           <small>2019 - present</small>
         </div>
-        <p>
+        <p className="position">
           <strong>Senior Software Engineer</strong>
         </p>
         <p>
