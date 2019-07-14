@@ -13,7 +13,7 @@ const Consultant = () => {
     <div className="row mt-2">
       <article className="col-sm-12">
         <div className="company">
-          <div className="mr-1">
+          <div className="mr-1 usaa">
             <a
               href="https://www.usaa.com"
               target="_blank"

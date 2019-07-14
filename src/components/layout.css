@@ -150,8 +150,29 @@ main {
   position: relative;
   left: -126px;
 }
+.company .usaa img {
+  background: #003b61;
+}
 .company .boston img {
   background-color: #444;
+}
+.company .rackspace img {
+  background-color: #eb0000;
+}
+.company .inrev img {
+  background-color: #213c96;
+}
+.company .storymd img {
+  background-color: #fe7d5d;
+}
+.company .usc img {
+  background-color: #980e06;
+}
+.company .starbucks img {
+  background-color: #00643c;
+}
+.company .greenriver img {
+  border: none;
 }
 a.logo {
   height: 30px;
