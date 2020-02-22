@@ -169,7 +169,7 @@ const Consultant = () => {
           ,{" "}
           <strong>
             <a
-              href="https://asset-data.inrev.org/users/auth/inrev"
+              href="https://www.inrev.org/market-information/asset-level-index#Datacollectionvalidationandquality"
               target="_blank"
               rel="noopener noreferrer"
             >
